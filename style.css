@@ -1,0 +1,152 @@
+ html{ 
+    margin: 0; 
+     padding: 0; 
+ } 
+
+ body{
+    width: 100%;
+    background-color: black;
+    font-family: cursive;
+    /* overflow-x: hidden; */
+    /* min-height: 100vh; */
+}
+
+h1{
+  text-align: center;
+  color: aqua;
+  margin-top: 1px;
+ 
+}
+h4{
+    text-align: center;
+    color: aqua;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman';
+}
+img
+
+
+
+.jhojho{
+    margin-left: 570px;
+}
+
+
+
+ .linha1{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(0, 255, 255);
+    width: 100%;
+    height: 150px;
+}
+
+main .imagem{
+    margin-right: 1300px;
+}
+
+ .linha2{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+}
+ .linha3{
+    /* list-style-type: disc; */
+    list-style: none; 
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(0, 255, 255);
+    width: 100%;
+}
+
+.container-footer{
+    /* position: fixed; */
+      position: absolute;   
+        width: 1300px;    
+       /* height: 30%; */
+     background-color: rgb(255, 255, 255);
+    color: blueviolet;
+    font-family: cursive;
+    margin: auto;
+}
+
+h3{
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 0.1em 0.1em 0.05em rgb(0, 255, 255)
+}
+
+.container-footer{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h3{
+    font-family: cursive;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-family: cursive;
+    text-align: justify;
+}
+
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+    font-weight: 600;
+    color: rgb(0, 238, 255);
+    font-family: cursive;
+    text-align: justify;
+}
+
+.coluna3 img{
+    padding: 5px;
+    list-style: none;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+
+    body{
+        display: inline-block;
+   
+    }
+    footer{
+        /* display: inline-block; */
+        position: relative;
+        text-align: center;
+        
+    }
+
+    footer p{
+        text-align: center;
+    }
+
+    .redes i {
+        color: rgb(0, 0, 0);
+        /* width: 768px; */
+    }
+
+  
+    .container-footer{
+        display: inline-block;
+        text-align: center;
+    }
+
+.coluna{
+    margin-bottom: 30px;
+}
+
+
+
+}
+
